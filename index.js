@@ -23,7 +23,7 @@ gsap.from('.detail-img img', {
     scrollTrigger: {
         trigger: ".detail",
         scroller: 'body',
-        markers: true,
+        // markers: true,
         start: 'top 20%',
         end: 'top -30%',
         scrub:2
